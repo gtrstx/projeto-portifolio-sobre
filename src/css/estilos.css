@@ -1,0 +1,145 @@
+body {
+    background: rgb(74,73,78);
+background: linear-gradient(80deg, rgba(74,73,78,1) 22%, rgba(255,255,255,1) 92%);
+}
+
+.img-quem-sou {
+    width: 750px;
+    height: 650px;
+    margin: 100px 0px 100px 150px;
+    position: absolute;
+}
+
+.img-quem-sou .imagem-quem-sou {
+    width: 750px;
+    height: 650px;
+}
+
+.quem-sou {
+    width: 750px;
+    height: 850px;
+    display: flex;
+    margin: 100px 0px 0px 1000px;
+}
+
+.quem-sou .titulo-quem-sou {
+    display: flex;
+    font-size: 56px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Questrial';
+}
+
+.quem-sou .texto-quem-sou {
+    display: flex;
+    margin: 150px 0px 0px 0px;
+    font-size: 35px;
+    font-family: 'Cardo';
+}
+
+.img-hobbies {
+    width: 750px;
+    height: 650px;
+    margin: 100px 0px 100px 1000px;
+    display: flex;
+}
+
+.img-hobbies .imagem-hobbies {
+    width: 750px;
+    height: 650px;
+}
+
+.hobbies {
+    width: 750px;
+    height: 850px;
+    margin: 100px 0px 0px 150px;
+    position: absolute;
+    display: flex;
+}
+
+.hobbies .titulo-hobbies {
+    display: flex;
+    position: absolute;
+    font-size: 56px;
+    font-family: 'Questrial';
+    margin: 0px;
+    padding: 0px;
+}
+
+.hobbies .texto-hobbies {
+    display: flex;
+    margin: 150px 0px 0px 0px;
+    font-size: 35px;
+    font-family: 'Cardo';
+}
+
+.img-habilidades{
+    width: 750px;
+    height: 650px;
+    margin: 100px 0px 0px 150px;
+    position: absolute;
+}
+
+.img-habilidades .imagem-habilidades {
+    width: 750px;
+    height: 650px;
+}
+
+.habilidades {
+    display: flex;
+    width: 750px;
+    height: 850px;
+    margin: 100px 0px 0px 1000px;
+}
+
+.habilidades .titulo-habilidades {
+    display: flex;
+    position: absolute;
+    font-size: 56px;
+    font-family: 'Questrial';
+    margin: 0px;
+    padding: 0px;
+}
+
+.habilidades .texto-habilidades {
+    margin: 150px 0px 0px 0px;
+    font-size: 35px;
+    font-family: 'Cardo';
+}
+
+.botao-div {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+   display: flex; 
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+   background: rgb(21,27,35);
+   background: linear-gradient(80deg, rgba(21,27,35,1) 8%, rgba(50,71,84,1) 77%);
+   border-radius: 100px;
+   width: 500px;
+   margin: 0px 0px 100px 0px;
+}
+
+.botao .info-botao {
+    display: flex;
+    font-size: 25px;
+    font-family: 'Cardo';
+    color: white;
+}
+
+hr {
+    overflow: visible; 
+    padding: 0;
+    border: none;
+    border-top: medium double #000000;
+    color: #000000;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Cardo';
+    src: url("../fonts/Cardo/Cardo-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: url("../fonts/Questrial/Questrial-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url("../fonts/Barlow-Regular.ttf");
+}
